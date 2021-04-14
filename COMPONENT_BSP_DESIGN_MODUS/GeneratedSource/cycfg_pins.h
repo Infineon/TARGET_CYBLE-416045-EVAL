@@ -4,7 +4,7 @@
 * Description:
 * Pin configuration
 * This file was automatically generated and should not be modified.
-* Tools Package 2.2.0.2801
+* Tools Package 2.2.0.2790
 * latest-v2.X 2.0.0.6211
 * personalities 3.0.0.0
 * udd 3.0.0.562
@@ -62,7 +62,7 @@ extern "C" {
 	#define WCO_IN_HAL_IRQ CYHAL_GPIO_IRQ_NONE
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define WCO_IN_HAL_DIR CYHAL_GPIO_DIR_INPUT 
+	#define WCO_IN_HAL_DIR CYHAL_GPIO_DIR_INPUT
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define WCO_IN_HAL_DRIVEMODE CYHAL_GPIO_DRIVE_ANALOG
@@ -89,7 +89,7 @@ extern "C" {
 	#define WCO_OUT_HAL_IRQ CYHAL_GPIO_IRQ_NONE
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define WCO_OUT_HAL_DIR CYHAL_GPIO_DIR_INPUT 
+	#define WCO_OUT_HAL_DIR CYHAL_GPIO_DIR_INPUT
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define WCO_OUT_HAL_DRIVEMODE CYHAL_GPIO_DRIVE_ANALOG
@@ -98,37 +98,46 @@ extern "C" {
 	#define CYBSP_SW2 (P0_4)
 	#define CYBSP_USER_BTN1 CYBSP_SW2
 	#define CYBSP_USER_BTN CYBSP_SW2
+	#define CYBSP_J2_16 CYBSP_SW2
 	#define CYBSP_J6_16 CYBSP_SW2
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define CYBSP_J6_15 (P0_5)
+	#define CYBSP_J2_15 (P0_5)
+	#define CYBSP_J6_15 CYBSP_J2_15
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_A5 (P10_0)
+	#define CYBSP_J2_11 CYBSP_A5
 	#define CYBSP_J6_11 CYBSP_A5
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_A4 (P10_1)
+	#define CYBSP_J2_9 CYBSP_A4
 	#define CYBSP_J6_9 CYBSP_A4
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_A2 (P10_2)
+	#define CYBSP_J2_5 CYBSP_A2
 	#define CYBSP_J6_5 CYBSP_A2
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_A3 (P10_3)
+	#define CYBSP_J2_7 CYBSP_A3
 	#define CYBSP_J6_7 CYBSP_A3
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_A0 (P10_4)
+	#define CYBSP_J2_1 CYBSP_A0
 	#define CYBSP_J6_1 CYBSP_A0
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_A1 (P10_5)
+	#define CYBSP_J2_3 CYBSP_A1
 	#define CYBSP_J6_3 CYBSP_A1
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define CYBSP_J6_13 (P10_6)
+	#define CYBSP_J2_13 (P10_6)
+	#define CYBSP_J6_13 CYBSP_J2_13
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_D9 (P12_6)
@@ -162,10 +171,12 @@ extern "C" {
 	#define CYBSP_D6 (P5_6)
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define CYBSP_J6_2 (P6_2)
+	#define CYBSP_J2_2 (P6_2)
+	#define CYBSP_J6_2 CYBSP_J2_2
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define CYBSP_J6_4 (P6_3)
+	#define CYBSP_J2_4 (P6_3)
+	#define CYBSP_J6_4 CYBSP_J2_4
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_I2C_SCL (P6_4)
@@ -209,7 +220,7 @@ extern "C" {
 	#define CYBSP_SWDIO_HAL_IRQ SWDIO_HAL_IRQ
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define SWDIO_HAL_DIR CYHAL_GPIO_DIR_BIDIRECTIONAL 
+	#define SWDIO_HAL_DIR CYHAL_GPIO_DIR_BIDIRECTIONAL
 	#define CYBSP_SWDIO_HAL_DIR SWDIO_HAL_DIR
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
@@ -250,7 +261,7 @@ extern "C" {
 	#define CYBSP_SWDCK_HAL_IRQ SWCLK_HAL_IRQ
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define SWCLK_HAL_DIR CYHAL_GPIO_DIR_BIDIRECTIONAL 
+	#define SWCLK_HAL_DIR CYHAL_GPIO_DIR_BIDIRECTIONAL
 	#define CYBSP_SWDCK_HAL_DIR SWCLK_HAL_DIR
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
@@ -258,10 +269,12 @@ extern "C" {
 	#define CYBSP_SWDCK_HAL_DRIVEMODE SWCLK_HAL_DRIVEMODE
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define CYBSP_J6_6 (P7_1)
+	#define CYBSP_J2_6 (P7_1)
+	#define CYBSP_J6_6 CYBSP_J2_6
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
-	#define CYBSP_J6_8 (P7_2)
+	#define CYBSP_J2_8 (P7_2)
+	#define CYBSP_J6_8 CYBSP_J2_8
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_D7 (P7_7)
@@ -286,16 +299,19 @@ extern "C" {
 	#define CYBSP_LED3_RGB_RED (P9_4)
 	#define CYBSP_USER_LED1 CYBSP_LED3_RGB_RED
 	#define CYBSP_USER_LED CYBSP_LED3_RGB_RED
+	#define CYBSP_J2_10 CYBSP_LED3_RGB_RED
 	#define CYBSP_J6_10 CYBSP_LED3_RGB_RED
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_LED3_RGB_BLUE (P9_5)
 	#define CYBSP_USER_LED3 CYBSP_LED3_RGB_BLUE
+	#define CYBSP_J2_12 CYBSP_LED3_RGB_BLUE
 	#define CYBSP_J6_12 CYBSP_LED3_RGB_BLUE
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
 	#define CYBSP_LED3_RGB_GREEN (P9_6)
 	#define CYBSP_USER_LED2 CYBSP_LED3_RGB_GREEN
+	#define CYBSP_J2_14 CYBSP_LED3_RGB_GREEN
 	#define CYBSP_J6_14 CYBSP_LED3_RGB_GREEN
 #endif //defined (CY_USING_HAL)
 

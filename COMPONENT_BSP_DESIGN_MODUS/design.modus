@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
-    <ToolInfo version="2.2.0.2801"/>
+    <ToolInfo version="2.2.0.2790"/>
     <Devices>
         <Device mpn="CYBLE-416045-02">
             <BlockConfig>
@@ -47,36 +47,45 @@
                     <Alias value="CYBSP_SW2"/>
                     <Alias value="CYBSP_USER_BTN1"/>
                     <Alias value="CYBSP_USER_BTN"/>
+                    <Alias value="CYBSP_J2_16"/>
                     <Alias value="CYBSP_J6_16"/>
                 </Block>
                 <Block location="ioss[0].port[0].pin[5]">
+                    <Alias value="CYBSP_J2_15"/>
                     <Alias value="CYBSP_J6_15"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[0]">
                     <Alias value="CYBSP_A5"/>
+                    <Alias value="CYBSP_J2_11"/>
                     <Alias value="CYBSP_J6_11"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[1]">
                     <Alias value="CYBSP_A4"/>
+                    <Alias value="CYBSP_J2_9"/>
                     <Alias value="CYBSP_J6_9"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[2]">
                     <Alias value="CYBSP_A2"/>
+                    <Alias value="CYBSP_J2_5"/>
                     <Alias value="CYBSP_J6_5"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[3]">
                     <Alias value="CYBSP_A3"/>
+                    <Alias value="CYBSP_J2_7"/>
                     <Alias value="CYBSP_J6_7"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[4]">
                     <Alias value="CYBSP_A0"/>
+                    <Alias value="CYBSP_J2_1"/>
                     <Alias value="CYBSP_J6_1"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[5]">
                     <Alias value="CYBSP_A1"/>
+                    <Alias value="CYBSP_J2_3"/>
                     <Alias value="CYBSP_J6_3"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[6]">
+                    <Alias value="CYBSP_J2_13"/>
                     <Alias value="CYBSP_J6_13"/>
                 </Block>
                 <Block location="ioss[0].port[12].pin[6]">
@@ -111,9 +120,11 @@
                     <Alias value="CYBSP_D6"/>
                 </Block>
                 <Block location="ioss[0].port[6].pin[2]">
+                    <Alias value="CYBSP_J2_2"/>
                     <Alias value="CYBSP_J6_2"/>
                 </Block>
                 <Block location="ioss[0].port[6].pin[3]">
+                    <Alias value="CYBSP_J2_4"/>
                     <Alias value="CYBSP_J6_4"/>
                 </Block>
                 <Block location="ioss[0].port[6].pin[4]">
@@ -153,9 +164,11 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].port[7].pin[1]">
+                    <Alias value="CYBSP_J2_6"/>
                     <Alias value="CYBSP_J6_6"/>
                 </Block>
                 <Block location="ioss[0].port[7].pin[2]">
+                    <Alias value="CYBSP_J2_8"/>
                     <Alias value="CYBSP_J6_8"/>
                 </Block>
                 <Block location="ioss[0].port[7].pin[7]">
@@ -181,16 +194,19 @@
                     <Alias value="CYBSP_LED3_RGB_RED"/>
                     <Alias value="CYBSP_USER_LED1"/>
                     <Alias value="CYBSP_USER_LED"/>
+                    <Alias value="CYBSP_J2_10"/>
                     <Alias value="CYBSP_J6_10"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[5]">
                     <Alias value="CYBSP_LED3_RGB_BLUE"/>
                     <Alias value="CYBSP_USER_LED3"/>
+                    <Alias value="CYBSP_J2_12"/>
                     <Alias value="CYBSP_J6_12"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[6]">
                     <Alias value="CYBSP_LED3_RGB_GREEN"/>
                     <Alias value="CYBSP_USER_LED2"/>
+                    <Alias value="CYBSP_J2_14"/>
                     <Alias value="CYBSP_J6_14"/>
                 </Block>
                 <Block location="peri[0].div_8[1]">
