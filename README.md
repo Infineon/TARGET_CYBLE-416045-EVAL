@@ -62,11 +62,11 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 * [CYBLE-416045-EVAL BSP API Reference Manual][api]
 * [CYBLE-416045-EVAL Documentation](https://www.cypress.com/documentation/development-kitsboards/cyble-416045-eval-ez-ble-arduino-evaluation-board)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
-* [Cypress Semiconductor GitHub](https://github.com/cypresssemiconductorco)
+* [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox](https://www.cypress.com/products/modustoolbox-software-environment)
 
-[api]: https://cypresssemiconductorco.github.io/TARGET_CYBLE-416045-EVAL/html/modules.html
-[settings]: https://cypresssemiconductorco.github.io/TARGET_CYBLE-416045-EVAL/html/md_bsp_settings.html
+[api]: https://infineon.github.io/TARGET_CYBLE-416045-EVAL/html/modules.html
+[settings]: https://infineon.github.io/TARGET_CYBLE-416045-EVAL/html/md_bsp_settings.html
 
 ---
-© Cypress Semiconductor Corporation, 2019-2021.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2021.
