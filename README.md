@@ -12,7 +12,7 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Features:
 
-* BLE 5.0 certified Cypress CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC 63 MCU
+* BLE 5.0 certified CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC 63 MCU
 * Up to 36 Arduino-compatible GPIO headers
 * Supports digital programmable logic, a PDM-PCM digital microphone interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.
 
@@ -63,7 +63,7 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 * [CYBLE-416045-EVAL Documentation](https://www.cypress.com/documentation/development-kitsboards/cyble-416045-eval-ez-ble-arduino-evaluation-board)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
-* [ModusToolbox](https://www.cypress.com/products/modustoolbox-software-environment)
+* [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
 
 [api]: https://infineon.github.io/TARGET_CYBLE-416045-EVAL/html/modules.html
 [settings]: https://infineon.github.io/TARGET_CYBLE-416045-EVAL/html/md_bsp_settings.html
