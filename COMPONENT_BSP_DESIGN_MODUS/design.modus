@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
-    <ToolInfo version="2.4.0.5721"/>
+    <ToolInfo version="2.4.0.5972"/>
     <Devices>
         <Device mpn="CYBLE-416045-02">
             <BlockConfig>
@@ -192,6 +192,7 @@
                 </Block>
                 <Block location="ioss[0].port[9].pin[4]">
                     <Alias value="CYBSP_LED3_RGB_RED"/>
+                    <Alias value="CYBSP_LED_RGB_RED"/>
                     <Alias value="CYBSP_USER_LED1"/>
                     <Alias value="CYBSP_USER_LED"/>
                     <Alias value="CYBSP_J2_10"/>
@@ -199,12 +200,14 @@
                 </Block>
                 <Block location="ioss[0].port[9].pin[5]">
                     <Alias value="CYBSP_LED3_RGB_BLUE"/>
+                    <Alias value="CYBSP_LED_RGB_BLUE"/>
                     <Alias value="CYBSP_USER_LED3"/>
                     <Alias value="CYBSP_J2_12"/>
                     <Alias value="CYBSP_J6_12"/>
                 </Block>
                 <Block location="ioss[0].port[9].pin[6]">
                     <Alias value="CYBSP_LED3_RGB_GREEN"/>
+                    <Alias value="CYBSP_LED_RGB_GREEN"/>
                     <Alias value="CYBSP_USER_LED2"/>
                     <Alias value="CYBSP_J2_14"/>
                     <Alias value="CYBSP_J6_14"/>

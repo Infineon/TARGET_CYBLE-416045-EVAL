@@ -4,13 +4,13 @@
 * Description:
 * Pin configuration
 * This file was automatically generated and should not be modified.
-* Tools Package 2.4.0.5721
-* mtb-pdl-cat1 3.0.0.10651
-* personalities 5.0.0.0
-* udd 3.0.0.1377
+* Tools Package 2.4.0.5972
+* mtb-pdl-cat1 2.4.0.13881
+* personalities 6.0.0.0
+* udd 3.0.0.1974
 *
 ********************************************************************************
-* Copyright 2021 Cypress Semiconductor Corporation (an Infineon company) or
+* Copyright 2022 Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.
 * SPDX-License-Identifier: Apache-2.0
 *
@@ -298,6 +298,7 @@ extern "C" {
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
     #define CYBSP_LED3_RGB_RED (P9_4)
+    #define CYBSP_LED_RGB_RED CYBSP_LED3_RGB_RED
     #define CYBSP_USER_LED1 CYBSP_LED3_RGB_RED
     #define CYBSP_USER_LED CYBSP_LED3_RGB_RED
     #define CYBSP_J2_10 CYBSP_LED3_RGB_RED
@@ -305,12 +306,14 @@ extern "C" {
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
     #define CYBSP_LED3_RGB_BLUE (P9_5)
+    #define CYBSP_LED_RGB_BLUE CYBSP_LED3_RGB_BLUE
     #define CYBSP_USER_LED3 CYBSP_LED3_RGB_BLUE
     #define CYBSP_J2_12 CYBSP_LED3_RGB_BLUE
     #define CYBSP_J6_12 CYBSP_LED3_RGB_BLUE
 #endif //defined (CY_USING_HAL)
 #if defined (CY_USING_HAL)
     #define CYBSP_LED3_RGB_GREEN (P9_6)
+    #define CYBSP_LED_RGB_GREEN CYBSP_LED3_RGB_GREEN
     #define CYBSP_USER_LED2 CYBSP_LED3_RGB_GREEN
     #define CYBSP_J2_14 CYBSP_LED3_RGB_GREEN
     #define CYBSP_J6_14 CYBSP_LED3_RGB_GREEN
