@@ -14,7 +14,7 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 * BLE 5.0 certified CYBLE-416045-02 EZ-BLE module with onboard crystal oscillators, trace antenna, passive components and PSoC™ 63 MCU
 * Up to 36 Arduino-compatible GPIO headers
-* Supports digital programmable logic, a PDM-PCM digital microphone interface, high-performance analog-to-digital converter (ADC), low-power comparators, and standard communication and timing peripherals.
+* Supports digital programmable logic, a PDM-PCM digital microphone interface, high-performance analog-to- digital converter (ADC), low-power comparators, and standard communication and timing peripherals.
 
 ### Kit Contents:
 
@@ -28,8 +28,6 @@ The BSP has a few hooks that allow its behavior to be configured. Some of these 
 
 Components:
 * Device specific category reference (e.g.: CAT1) - This component, enabled by default, pulls in any device specific code for this board.
-* BSP_DESIGN_MODUS - This component, enabled by default, causes the Configurator generated code for this specific BSP to be included. This should not be used at the same time as the CUSTOM_DESIGN_MODUS component.
-* CUSTOM_DESIGN_MODUS - This component, disabled by default, causes the Configurator generated code from the application to be included. This assumes that the application provides configurator generated code. This should not be used at the same time as the BSP_DESIGN_MODUS component.
 
 Defines:
 * CYBSP_WIFI_CAPABLE - This define, disabled by default, causes the BSP to initialize the interface to an onboard wireless chip if it has one.
@@ -70,4 +68,4 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 [settings]: https://infineon.github.io/TARGET_CYBLE-416045-EVAL/html/md_bsp_settings.html
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2021.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2022.
